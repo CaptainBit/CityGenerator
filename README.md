@@ -27,5 +27,6 @@ I use gaussian function. More  buildings are in the center, better are the chanc
 ![Gaussian](CityProcedural/Showcase/Gaussian.png)
 
 ## Showcase
-![City 1](CityProcedural/Showcase/img1.png)
-![City 2](CityProcedural/Showcase/img2.png)
+![City 1](CityProcedural/Showcase/City1.png)
+![City 2](CityProcedural/Showcase/City2.png)
+![City 3](CityProcedural/Showcase/City3.png)
