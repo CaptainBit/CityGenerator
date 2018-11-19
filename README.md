@@ -1,6 +1,6 @@
 # City Procedural Generator
 
-I made a city procedural generator on c++ with openGl. Every aspect of the city is generated randomly (Size, streets, Textures). The size of the city is arround 500 to 30 000 buildings . 
+I made a city procedural generator on c++ with openGl. Every aspect of the city is generated randomly (Size, streets, Textures) so yeah... Sometimes it's feel a little bit unreal :) . The size of the city is arround 500 to 30 000 buildings .
 
 
 # Libraries
