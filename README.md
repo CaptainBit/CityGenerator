@@ -24,8 +24,8 @@ I use a projection camera with basics controls :
 
 ## Gaussian function
 I use gaussian function. More  buildings are in the center, better are the chance that buldings are higher.
-![Gaussian](Showcase/Gaussian.png)
+![Gaussian](CityProcedural/Showcase/Gaussian.png)
 
 ## Showcase
-![City 1](Showcase/img1.png)
-![City 2](Showcase/img2.png)
+![City 1](CityProcedural/Showcase/img1.png)
+![City 2](CityProcedural/Showcase/img2.png)
