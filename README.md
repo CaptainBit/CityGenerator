@@ -23,7 +23,7 @@ I use a projection camera with basics controls :
 |  r|  Recreate a new city|
 
 ## Gaussian function
-I use gaussian function. More  buildings are in the center, better are the chance that buldings are higher.
+I use gaussian function to set height of my buildings.Basically, better are the chance that buldings are higher in the center.
 ![Gaussian](CityProcedural/Showcase/Gaussian.png)
 
 ## Showcase
