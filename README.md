@@ -8,7 +8,7 @@ I made a city procedural generator on c++ with openGl. Every aspect of the city 
 -SOIL
 -OpenGl
 
-#Configuration
+# Configuration
 We can set the Scale of the city (I prefer 700). More the scale is higher, bigger the city is.
 We can set the number of the random for the row and the cols (don't go higher than 30).
 We can set the number of streets (how many buildings before new street is created)(I set it randomly between 20).
