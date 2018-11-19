@@ -1,0 +1,22 @@
+﻿  GridMaker.cpp
+d:\cityprocedural\cityprocedural\lab1\city\gridmaker.cpp(17): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\city\gridmaker.cpp(38): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\cityprocedural\cityprocedural\lab1\city\gridmaker.cpp(46): warning C4244: '+=' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\cityprocedural\cityprocedural\lab1\city\gridmaker.cpp(53): warning C4244: '+=' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+soil.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu Ûtre trouvÚ avec 'soil.lib(image_DXT.obj)' ou sur 'D:\CityProcedural\CityProcedural\Debug\SOIL.pdb'á; l'objet sera liÚ sans informations de dÚbogage
+soil.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu Ûtre trouvÚ avec 'soil.lib(image_helper.obj)' ou sur 'D:\CityProcedural\CityProcedural\Debug\SOIL.pdb'á; l'objet sera liÚ sans informations de dÚbogage
+soil.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu Ûtre trouvÚ avec 'soil.lib(SOIL.obj)' ou sur 'D:\CityProcedural\CityProcedural\Debug\SOIL.pdb'á; l'objet sera liÚ sans informations de dÚbogage
+soil.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu Ûtre trouvÚ avec 'soil.lib(stb_image_aug.obj)' ou sur 'D:\CityProcedural\CityProcedural\Debug\SOIL.pdb'á; l'objet sera liÚ sans informations de dÚbogage
+  Lab1.vcxproj -> D:\CityProcedural\CityProcedural\Debug\Lab2.exe
