@@ -30,6 +30,7 @@ I use a projection camera with basics controls :
 I use gaussian function to set height of my buildings. Basically, better are the chance that buldings are higher in the center.
 ![Gaussian](CityProcedural/Showcase/Gaussian.png)
 
+
 ## Showcase
 ![City 1](CityProcedural/Showcase/City1.png)
 ![City 2](CityProcedural/Showcase/City2.png)
