@@ -29,7 +29,7 @@ GridMaker::GridMaker(int scale)
 	GLfloat mouvementZ = ((2.0f * scale) / (GLfloat)nbCols);
 
 
-	int nbBlockX = rand() % 10 + 5;
+	int nbBlockX = rand() % 5 + 5;
 
 	//Creation des parcelles de terrain
 	for (int rows = 0; rows < nbRows; rows++) 
@@ -44,7 +44,6 @@ GridMaker::GridMaker(int scale)
 			origin.z = origin.z + mouvementZ;
 
 			origin.z += 0.1 * (scale/2);
-
 			
 		}
 		origin.x = origin.x + mouvementX;

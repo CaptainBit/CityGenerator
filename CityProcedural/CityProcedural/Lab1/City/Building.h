@@ -14,6 +14,8 @@ class Building
 public:
 	Building(glm::vec3 leftCorner, GLfloat x, GLfloat y, GLfloat z);
 
+	GLfloat height;
+	GLfloat width;
 
 	glm::vec3 lowLeft;
 	glm::vec3 highRight;

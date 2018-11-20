@@ -25,19 +25,23 @@ void ShapeData::MakeBase(Building building)
 			0,2,4,
 			2,4,6
 
-
 	};
 
 	std::vector <glm::vec2> texture;
 
-	texture.push_back(glm::vec2(0.0f, 1.0f));
-	texture.push_back(glm::vec2(1.0f, 1.0f));
-	texture.push_back(glm::vec2(0.0f, 0.0f));
-	texture.push_back(glm::vec2(1.0f, 0.0f));
 
-	texture.push_back(glm::vec2(1.0f, 1.0f));
-	texture.push_back(glm::vec2(0.0f, 1.0f));
-	texture.push_back(glm::vec2(1.0f, 0.0f));
+	GLfloat iterY = building.height * 0.005;
+	GLfloat iterX = building.width * 0.005;
+
+
+	texture.push_back(glm::vec2(0.0f, iterY));
+	texture.push_back(glm::vec2(iterX, iterY));
+	texture.push_back(glm::vec2(0.0f, 0.0f));
+	texture.push_back(glm::vec2(iterX, 0.0f));
+
+	texture.push_back(glm::vec2(iterX, iterY));
+	texture.push_back(glm::vec2(0.0f, iterY));
+	texture.push_back(glm::vec2(iterX, 0.0f));
 	texture.push_back(glm::vec2(0.0f, 0.0f));
 
 	GLuint vertexBufferBase;

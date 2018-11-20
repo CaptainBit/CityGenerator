@@ -16,6 +16,8 @@
 #include "City\Parcelle.h"
 #include "City\ShapeData.h"
 
+
+
 /**********namespaces**************/
 using namespace Core;
 using namespace House;

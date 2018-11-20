@@ -5,8 +5,8 @@
 Building::Building(glm::vec3 leftCorner, GLfloat x, GLfloat y, GLfloat z)
 {
 
-
-	
+	height = y;
+	width = x;
 
 
 	GLfloat pTerrain = ((GLfloat)(rand() % 30 + 30)/100);
@@ -16,33 +16,14 @@ Building::Building(glm::vec3 leftCorner, GLfloat x, GLfloat y, GLfloat z)
 	highRight = glm::vec3(leftCorner.x + x * pTerrain , leftCorner.y, leftCorner.z + z * pTerrain);
 
 
-	//First face
-	
-	sommets.push_back(glm::vec3(leftCorner.x, leftCorner.y, leftCorner.z));
-
-	
-	sommets.push_back(glm::vec3(leftCorner.x + (x*pTerrain), leftCorner.y, leftCorner.z));
-
-	
-	sommets.push_back(glm::vec3(leftCorner.x, leftCorner.y, leftCorner.z + (z * pTerrain)));
-
-	
-	sommets.push_back(glm::vec3(leftCorner.x + (x * pTerrain), leftCorner.y, leftCorner.z + z * pTerrain));
-
-
-	//Second Face
-	
 	sommets.push_back(glm::vec3(leftCorner.x, leftCorner.y + (y * pTerrain), leftCorner.z));
-
-	
 	sommets.push_back(glm::vec3(leftCorner.x + (x * pTerrain), leftCorner.y + (y * pTerrain), leftCorner.z));
-
-	
+	sommets.push_back(glm::vec3(leftCorner.x, leftCorner.y, leftCorner.z));
+	sommets.push_back(glm::vec3(leftCorner.x + (x*pTerrain), leftCorner.y, leftCorner.z));
 	sommets.push_back(glm::vec3(leftCorner.x, leftCorner.y + (y *pTerrain), leftCorner.z + (z * pTerrain)));
-
-	
-	sommets.push_back(glm::vec3(leftCorner.x + (x * pTerrain), leftCorner.y + (y * pTerrain), leftCorner.z +( z * pTerrain)));
-
+	sommets.push_back(glm::vec3(leftCorner.x + (x * pTerrain), leftCorner.y + (y * pTerrain), leftCorner.z + (z * pTerrain)));
+	sommets.push_back(glm::vec3(leftCorner.x, leftCorner.y, leftCorner.z + (z * pTerrain)));
+	sommets.push_back(glm::vec3(leftCorner.x + (x * pTerrain), leftCorner.y, leftCorner.z + z * pTerrain));
 
 }
 

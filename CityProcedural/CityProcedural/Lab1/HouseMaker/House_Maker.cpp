@@ -55,6 +55,7 @@ void House::House_Maker::creeSommetsBase(GLfloat largeur, GLfloat hauteur, GLflo
 	m_sommetsBase[3] = glm::vec3(largeur, -hauteur, -profondeur);
 	m_sommetsBase[4] = glm::vec3(-largeur, hauteur, profondeur);
 	m_sommetsBase[5] = glm::vec3(largeur, hauteur, profondeur);
+
 	m_sommetsBase[6] = glm::vec3(-largeur, -hauteur, profondeur);
 	m_sommetsBase[7] = glm::vec3(largeur, -hauteur, profondeur);
 	m_sommetsBase[8] = glm::vec3(largeur/3, -hauteur, -profondeur-0.001);
