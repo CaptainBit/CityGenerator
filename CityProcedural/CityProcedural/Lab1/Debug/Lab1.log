@@ -1,5 +1,51 @@
-﻿soil.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu être trouvé avec 'soil.lib(image_DXT.obj)' ou sur 'D:\CityProcedural Isaac Fiset\CityProcedural\Debug\SOIL.pdb' ; l'objet sera lié sans informations de débogage
-soil.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu être trouvé avec 'soil.lib(image_helper.obj)' ou sur 'D:\CityProcedural Isaac Fiset\CityProcedural\Debug\SOIL.pdb' ; l'objet sera lié sans informations de débogage
-soil.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu être trouvé avec 'soil.lib(SOIL.obj)' ou sur 'D:\CityProcedural Isaac Fiset\CityProcedural\Debug\SOIL.pdb' ; l'objet sera lié sans informations de débogage
-soil.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu être trouvé avec 'soil.lib(stb_image_aug.obj)' ou sur 'D:\CityProcedural Isaac Fiset\CityProcedural\Debug\SOIL.pdb' ; l'objet sera lié sans informations de débogage
-  Lab1.vcxproj -> D:\CityProcedural Isaac Fiset\CityProcedural\Debug\Lab2.exe
+﻿  Building.cpp
+  GridMaker.cpp
+d:\cityprocedural\cityprocedural\lab1\city\gridmaker.cpp(17): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\city\gridmaker.cpp(38): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\cityprocedural\cityprocedural\lab1\city\gridmaker.cpp(46): warning C4244: '+=' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\cityprocedural\cityprocedural\lab1\city\gridmaker.cpp(52): warning C4244: '+=' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+  Parcelle.cpp
+d:\cityprocedural\cityprocedural\lab1\city\parcelle.cpp(69): warning C4244: 'argument' : conversion de 'double' en 'GLfloat', perte possible de données
+  ShapeData.cpp
+d:\cityprocedural\cityprocedural\lab1\city\shapedata.cpp(33): warning C4244: 'initialisation' : conversion de 'double' en 'GLfloat', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\city\shapedata.cpp(34): warning C4244: 'initialisation' : conversion de 'double' en 'GLfloat', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\city\shapedata.cpp(81): warning C4305: 'initialisation' : troncation de 'double' à 'GLfloat'
+d:\cityprocedural\cityprocedural\lab1\city\shapedata.cpp(75): warning C4101: 'colorsBufferCar' : variable locale non référencée
+d:\cityprocedural\cityprocedural\lab1\city\shapedata.cpp(131): warning C4244: 'initialisation' : conversion de 'int' en 'GLfloat', perte possible de données
+  House_Maker.cpp
+d:\cityprocedural\cityprocedural\lab1\housemaker\house_maker.cpp(148): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\housemaker\house_maker.cpp(149): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\housemaker\house_maker.cpp(150): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  Shader_Loader.cpp
+  Texture_Loader.cpp
+  main.cpp
+d:\cityprocedural\cityprocedural\lab1\main.cpp(116): warning C4018: '<' : incompatibilité signed/unsigned
+d:\cityprocedural\cityprocedural\lab1\main.cpp(125): warning C4018: '<' : incompatibilité signed/unsigned
+d:\cityprocedural\cityprocedural\lab1\main.cpp(244): warning C4244: '=' : conversion de 'int' en 'GLfloat', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\main.cpp(245): warning C4244: '=' : conversion de 'int' en 'GLfloat', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\main.cpp(251): warning C4244: '=' : conversion de 'int' en 'GLfloat', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\main.cpp(252): warning C4244: '=' : conversion de 'int' en 'GLfloat', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\main.cpp(258): warning C4244: '=' : conversion de 'int' en 'GLfloat', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\main.cpp(259): warning C4244: '=' : conversion de 'int' en 'GLfloat', perte possible de données
+d:\cityprocedural\cityprocedural\lab1\main.cpp(261): warning C4305: 'initialisation' : troncation de 'double' à 'GLfloat'
+d:\cityprocedural\cityprocedural\lab1\main.cpp(302): warning C4018: '<' : incompatibilité signed/unsigned
+d:\cityprocedural\cityprocedural\lab1\main.cpp(318): warning C4305: 'argument' : troncation de 'double' à 'float'
+d:\cityprocedural\cityprocedural\lab1\main.cpp(326): warning C4305: 'argument' : troncation de 'double' à 'float'
+  Génération de code en cours...
+soil.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu être trouvé avec 'soil.lib(image_DXT.obj)' ou sur 'D:\CityProcedural\CityProcedural\Debug\SOIL.pdb' ; l'objet sera lié sans informations de débogage
+soil.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu être trouvé avec 'soil.lib(image_helper.obj)' ou sur 'D:\CityProcedural\CityProcedural\Debug\SOIL.pdb' ; l'objet sera lié sans informations de débogage
+soil.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu être trouvé avec 'soil.lib(SOIL.obj)' ou sur 'D:\CityProcedural\CityProcedural\Debug\SOIL.pdb' ; l'objet sera lié sans informations de débogage
+soil.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' n'a pu être trouvé avec 'soil.lib(stb_image_aug.obj)' ou sur 'D:\CityProcedural\CityProcedural\Debug\SOIL.pdb' ; l'objet sera lié sans informations de débogage
+  Lab1.vcxproj -> D:\CityProcedural\CityProcedural\Debug\Lab2.exe
